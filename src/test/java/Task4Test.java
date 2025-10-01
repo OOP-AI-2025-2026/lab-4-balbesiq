@@ -267,6 +267,7 @@ public class Task4Test {
             DiscountBill2 bill = new DiscountBill2(new Employee("clerk-1"), preferred);
             bill.add(new Item("rice", 3.00, 0.75));
 
+
             double expected = 25.0;
             assertEquals(expected, bill.getDiscountPercent());
         }

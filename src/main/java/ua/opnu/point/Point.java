@@ -36,6 +36,7 @@ public class Point {
     return distance(new Point(0, 0));
   }
 
+
   public final int getX() {
     return this.x;
   }

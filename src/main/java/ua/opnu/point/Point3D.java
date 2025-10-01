@@ -29,8 +29,9 @@ public class Point3D extends Point {
     this.z = z;
   }
 
+
   public int getZ() {
-    return this.z;
+      return this.z;
   }
 
   @Override
