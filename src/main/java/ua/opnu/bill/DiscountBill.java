@@ -3,6 +3,7 @@ package ua.opnu.bill;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
+
 public class DiscountBill extends GroceryBill {
 
     private boolean regularCustomer;
