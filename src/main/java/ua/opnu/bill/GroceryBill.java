@@ -10,6 +10,7 @@ public class GroceryBill {
   GroceryBill(Employee clerk) {
     setClerk(clerk);
     this.items = new ArrayList<>();
+
   }
 
   public Employee getClerk() {
